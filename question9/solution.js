@@ -1,8 +1,3 @@
-function getNumberOfLayers(rug) {
-    var result = rug.filter(function(item, index) {
-       return rug.indexOf(item) == index;
-     });
-     return result.length
-   }
+function getNumberOfLayers(rug) {}
 
 module.exports = getNumberOfLayers;

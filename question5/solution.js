@@ -1,8 +1,2 @@
-function convertToArray(obj) {
-  var result = [];
-  for (var key in obj) {
-    result.push([key, obj[key]]);
-  }
-  return result;
-}
+function convertToArray(obj) {}
 module.exports = convertToArray;
